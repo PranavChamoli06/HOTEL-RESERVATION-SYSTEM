@@ -11,7 +11,7 @@ public class HotelReservationSystem {
 
     private static final String user = "yourusername";
 
-    private static final String password = "yourpasswrod";
+    private static final String password = "yourpassword";
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         try{
@@ -20,19 +20,25 @@ public class HotelReservationSystem {
         } catch(ClassNotFoundException e){
             System.out.println(e.getMessage());
         }
+        System.out.println("======================================");
+        System.out.println("      WELCOME TO HOTEL RESERVATION    ");
+        System.out.println("======================================");
+        System.out.println("     Developed by Pranav Chamoli 💻   ");
+        System.out.println("      Java | JDBC | MySQL Backend     ");
+        System.out.println("======================================");
 
         try{
             Connection conn = DriverManager.getConnection(url,user,password);
             while(true){
                 System.out.println();
-                System.out.println("HOTEL MANAGEMENT SYSTEM");
                 Scanner scn = new Scanner(System.in);
+                System.out.println("Available Options: ");
                 System.out.println("1. Reserve a Room");
                 System.out.println("2. View Reservation");
                 System.out.println("3. Update Reservation");
                 System.out.println("4. Delete Reservation");
                 System.out.println("0. Exit");
-                System.out.println("Choose an option: ");
+                System.out.println("Your Choice: ");
                 int option = scn.nextInt();
                 switch(option){
                     case 1:
@@ -87,6 +93,7 @@ public class HotelReservationSystem {
        } catch (SQLException e){
            e.printStackTrace();
        }
+        System.out.println("--------------------------------------------------");
     }
 
     private static void viewReservations(Connection conn) throws SQLException{
@@ -151,7 +158,9 @@ public class HotelReservationSystem {
         } catch (SQLException e){
             e.printStackTrace();
         }
+        System.out.println("--------------------------------------------------");
     }
+
     private static void deleteReservation(Connection conn, Scanner scn){
         try{
             System.out.println("Enter the reservation id to delete: ");
@@ -175,6 +184,7 @@ public class HotelReservationSystem {
         } catch (SQLException e){
             e.printStackTrace();
         }
+        System.out.println("--------------------------------------------------");
     }
 
     private static boolean reservationExists(Connection connection, int reservationId) {
