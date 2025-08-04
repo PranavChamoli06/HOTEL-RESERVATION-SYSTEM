@@ -193,14 +193,14 @@ public class HotelReservationSystem {
     }
 
     public static void exit() throws InterruptedException{
-        System.out.println("Exiting System");
+        System.out.print("Exiting System");
         int i = 5;
         while(i!=0){
-            System.out.println(".");
+            System.out.print(".");
             Thread.sleep(1000);
-            i++;
-            System.out.println();
-            System.out.println("THANK YOU FOR CHOOSING OUR HOTEL RESERVATION SYSTEM :)");
+            i--;
         }
+        System.out.println();
+        System.out.println("THANK YOU FOR CHOOSING OUR HOTEL RESERVATION SYSTEM :)");
     }
 }
