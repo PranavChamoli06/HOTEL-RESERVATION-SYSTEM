@@ -64,13 +64,21 @@ CREATE TABLE reservations (
 ## 📸 Sample Output
 
 ```
-HOTEL MANAGEMENT SYSTEM
+======================================
+      WELCOME TO HOTEL RESERVATION    
+======================================
+     Developed by Pranav Chamoli 💻   
+      Java | JDBC | MySQL Backend     
+======================================
+
+Available Options: 
 1. Reserve a Room
 2. View Reservation
 3. Update Reservation
 4. Delete Reservation
 0. Exit
-Choose an option:
+Your Choice: 
+
 ```
 
 ---
