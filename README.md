@@ -64,9 +64,9 @@ CREATE TABLE reservations (
 ## 📸 Screenshots
 
 ```
-![1](assets/1.png)
-![2](assets/2.png)
-![3](assets/3.png)
+![Screenshot](assets/1.png)
+![Screenshot](assets/2.png)
+![Screenshot](assets/3.png)
 
 ```
 
