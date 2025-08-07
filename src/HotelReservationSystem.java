@@ -9,9 +9,9 @@ import java.util.Scanner;
 public class HotelReservationSystem {
     private static final String url = "jdbc:mysql://localhost:3306/hotel_db";
 
-    private static final String user = "root";
+    private static final String user = "yourusername";
 
-    private static final String password = "qaztgb@pranav2004";
+    private static final String password = "yourpassword";
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         try{
