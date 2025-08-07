@@ -61,18 +61,6 @@ CREATE TABLE reservations (
 
 ---
 
-## 📸 Screenshots
-
-```
-
-![Screenshot](https://github.com/PranavChamoli06/HOTEL-RESERVATION-SYSTEM/blob/main/assets/1.png)
-![Screenshot](https://github.com/PranavChamoli06/HOTEL-RESERVATION-SYSTEM/blob/main/assets/2.png)
-![Screenshot](https://github.com/PranavChamoli06/HOTEL-RESERVATION-SYSTEM/blob/main/assets/3.png)
-
-```
-
----
-
 ## 📚 Future Improvements
 
 * Add a **web interface** using JSP/Servlet or Spring Boot
