@@ -61,23 +61,12 @@ CREATE TABLE reservations (
 
 ---
 
-## 📸 Sample Output
+## 📸 Screenshots
 
 ```
-======================================
-      WELCOME TO HOTEL RESERVATION    
-======================================
-     Developed by Pranav Chamoli 💻   
-      Java | JDBC | MySQL Backend     
-======================================
-
-Available Options: 
-1. Reserve a Room
-2. View Reservation
-3. Update Reservation
-4. Delete Reservation
-0. Exit
-Your Choice: 
+![1](assets/1.png)
+![2](assets/2.png)
+![3](assets/3.png)
 
 ```
 
