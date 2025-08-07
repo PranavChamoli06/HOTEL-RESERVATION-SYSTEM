@@ -65,9 +65,9 @@ CREATE TABLE reservations (
 
 ```
 
-![Screenshot](assets/1.png)
-![Screenshot](assets/2.png)
-![Screenshot](assets/3.png)
+![Screenshot](https://github.com/PranavChamoli06/HOTEL-RESERVATION-SYSTEM/blob/main/assets/1.png)
+![Screenshot](https://github.com/PranavChamoli06/HOTEL-RESERVATION-SYSTEM/blob/main/assets/2.png)
+![Screenshot](https://github.com/PranavChamoli06/HOTEL-RESERVATION-SYSTEM/blob/main/assets/3.png)
 
 ```
 
