@@ -64,9 +64,9 @@ CREATE TABLE reservations (
 ## 📸 Screenshots
 
 ```
-![1](assets/1.png)
-![2](assets/2.png)
-![3](assets/3.png)
+![Driver Loader](assets/1.png)
+![Available Options](assets/2.png)
+![Reservation Details](assets/3.png)
 
 ```
 
